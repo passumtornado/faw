@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #fff;
+    margin: -20px 0 50px;
+}
+
+h2 {
+    font-weight: bold;
+    margin: 0;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    margin: 20px 0 30px;
+}
+
+span {
+    font-size: 12px;
+}
+
+a {
+    color: #333;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 15px 0;
+}
+
+
+.navbar {
+    /* background-color: transparent !important;*/
+
+}
+
+.navbar-brand {
+    color: #000 !important;
+    font-weight: 800 !important;
+    font-size: 1.3em !important;
+}
+
+.navbar .navbar-nav {
+    margin: 0 auto;
+
+}
+
+.navbar .nav-item {
+    padding-left: 24px;
+}
+
+.navbar .nav-item a {
+    color: #000 !important;
+    font-weight: 800 !important;
+    /*  font-size: 1.0em !important; */
+
+}
+
+.navbar .navbar-nav .nav-item.active .nav-link {
+    background: #48D1CC !important;
+    color: #fff !important;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    background: #228B22 !important;
+    color: #fff !important;
+}
+.social-container {
+    margin: 20px 0;
+}
+
+.social-container a {
+    border: 1px solid #228B22;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    height: 40px;
+    width: 40px;
+}
+ 
+
+.main .container{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-container form {
+    background: #fff;
+    padding: 0 50px;
+    height: 100%
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+}
+.forms-container form {
+    background: #fff;
+    padding: 0 50px;
+    height: 100%
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+}
+button {
+    background-color:  #228B22  !important;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+}
+button:active {
+    transform: scale(0.95);
+}
+
+button:focus {
+    outline: none;
+}
+.my-panel{
+    background: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.overlay-panel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+.overlay-panel h2{
+     margin: 12px;
+     color: #fff !important;
+     opacity: 1 !important;
+     text-shadow: 2px 2px 4px #000;
+    
+}
+.overlay-panel p{
+    color: #fff !important; 
+    text-shadow: 2px 2px 4px #000;
+}
+.container.forms-container{
+    display: none;
+}
+.forms-contianer.myactive{
+    display: block;
+}
+.form-container.inactive{
+    display: none;
+}

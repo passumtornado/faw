@@ -1,0 +1,74 @@
+body{
+	 margin: 0;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 1rem;
+}
+header{
+   
+}
+ #fawsbanner{
+	width: 100%;
+}
+.login{
+	position: relative;;
+	top: -5em;
+}
+.register{
+
+	position: relative;
+	top: -18em;
+	bottom: 0;
+}
+.mysocial{
+    background: red;
+}
+.container .mydetials {
+  background-color: rgba(#fff, .8);
+  max-width: 20rem;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+}
+ h3{
+
+  margin: 0;
+  padding-top: 1rem;
+  font-weight: 600;
+}
+.test-one p {
+  background-color: #eee;
+  line-height: 2rem;
+  margin: 0 0 .5rem;
+  padding-left: 3rem;
+  position: relative;
+}
+.test-one a {
+  background-color: #eee;
+  color: black;
+  display: block;
+  margin-left: -3rem;
+  padding-left: 3rem;
+  text-decoration: none;
+  transition: all .25s ease-in-out;
+}
+.test-one a:hover {
+    background-color: #ddd;
+  }
+.test-one .fa {
+  color: white;
+  font-size: 1.15rem;
+  line-height: 2rem;
+}
+
+.test-one{
+  padding: 1rem 0;
+}
+ 
+.test-one .fa {
+    background-color: #007934;
+    clip-path: polygon(0 0, 100% 0%, 85% 100%, 0% 100%);
+    left: 0;
+    padding-right: .25rem;
+    position: absolute;
+    top: 0;
+    width: 2.25rem;
+  }
